@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap");
+
+/* Fuentes tipográficas 
+font-family: 'Inter', sans-serif;*/
+
+/* Colores */
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+#logoNavBar {
+    width: 2rem;
+}
