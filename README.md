@@ -6,3 +6,10 @@ Recursos
 Bootstrap
 
 * NAVBAR
+
+
+
+Colores
+
+Fuentes Tipográficas
+
