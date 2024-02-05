@@ -4,11 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Estilos CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-
-    <title>Viajes Chile</title>
-
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -17,16 +12,23 @@
       crossorigin="anonymous"
     />
 
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Viajes Chile</title>
+
     <!-- JavaScript -->
     <script defer src="./assets/js/index.js"></script>
 
     <!-- jQuery -->
     <script
+      defer
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
     <!-- Barra de Navegación -->
     <nav>
@@ -72,6 +74,154 @@
         </div>
       </nav>
     </nav>
+
+    <!-- Carousel -->
+    <main>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/img/carousel1.jpg"
+              class="d-block col-12"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item active">
+            <img
+              src="./assets/img/carousel2.jpg"
+              class="d-block col-12"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item active">
+            <img
+              src="./assets/img/carousel3.jpg"
+              class="d-block col-12"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+    <!-- Sección de presentación -->
+    <section class="p-5">
+      <div><h2>¿QUIÉNES SOMOS?</h2></div>
+      <div class="row align-items-center">
+        <div class="col-4">
+          <div>TITULO</div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              quae doloribus odio eum saepe totam expedita nihil exercitationem
+              nam, dolor voluptas id qui sit omnis deleniti animi dicta
+              veritatis natus. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Iste aliquid adipisci officiis consequatur
+              libero laboriosam enim sit saepe molestiae labore! Omnis
+              laboriosam sit laudantium ea ad debitis aspernatur minus eius.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div>TITULO</div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              quae doloribus odio eum saepe totam expedita nihil exercitationem
+              nam, dolor voluptas id qui sit omnis deleniti animi dicta
+              veritatis natus. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Iste aliquid adipisci officiis consequatur
+              libero laboriosam enim sit saepe molestiae labore! Omnis
+              laboriosam sit laudantium ea ad debitis aspernatur minus eius.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div>TITULO</div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              quae doloribus odio eum saepe totam expedita nihil exercitationem
+              nam, dolor voluptas id qui sit omnis deleniti animi dicta
+              veritatis natus. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Iste aliquid adipisci officiis consequatur
+              libero laboriosam enim sit saepe molestiae labore! Omnis
+              laboriosam sit laudantium ea ad debitis aspernatur minus eius.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de destacados -->
+    <section class="py-3 px-5 text-white bg-black">
+      <h1 class="text-center p-3">Destacados</h1>
+      <div class="d-flex justify-content-center gap-3 px-5">
+        <div class="card col-3">
+          <img src="./assets/img/card1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body text-white">
+            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text">
+              Mus enim elementum dignissim class eleifend justo, ut nunc magnis
+              est vulputate nostra, blandit erat luctus faucibus orci.
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-3">
+          <img src="./assets/img/card2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body text-white">
+            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text">
+              Mus enim elementum dignissim class eleifend justo, ut nunc magnis
+              est vulputate nostra, blandit erat luctus faucibus orci.
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-3">
+          <img src="./assets/img/card3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body text-white">
+            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text">
+              Mus enim elementum dignissim class eleifend justo, ut nunc magnis
+              est vulputate nostra, blandit erat luctus faucibus orci.
+            </p>
+          </div>
+        </div>
+
+        <div class="card col-3">
+          <img src="./assets/img/card4.jpg" class="card-img-top" alt="..." />
+          <div class="card-body text-white">
+            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+            <p class="card-text">
+              Mus enim elementum dignissim class eleifend justo, ut nunc magnis
+              est vulputate nostra, blandit erat luctus faucibus orci.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
